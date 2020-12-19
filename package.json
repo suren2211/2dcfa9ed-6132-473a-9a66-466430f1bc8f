@@ -1,0 +1,29 @@
+{
+    "name": "ksaifullah-coding-challenge",
+    "version": "1.0.0",
+    "description": "ksaifullah/coding-challenge",
+    "main": "app.js",
+    "scripts": {
+        "start": "webpack app.js --mode development --watchAll",
+        "test": "jest --watchAll"
+    },
+    "keywords": [
+        "js",
+        "javascript",
+        "testing",
+        "jest",
+        "unit",
+        "tests",
+        "integration",
+        "tests",
+        "e2e",
+        "tests"
+    ],
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "jest": "^26.6.0",
+        "webpack": "^5.11.0",
+        "webpack-cli": "^5.11.0"
+    }
+}
