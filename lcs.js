@@ -1,4 +1,4 @@
-var prompt = require('prompt');
+import { start, get } from 'prompt';
 
 // Longest common subsequence
 function longestCommonSubsequence(str1, str2) {
@@ -44,8 +44,8 @@ function longestCommonSubsequence(str1, str2) {
 }
 
 // Node Prompt
-prompt.start();
-prompt.get(['string1', 'string2'], function(err, result) {
+start();
+get(['string1', 'string2'], function(err, result) {
     if (err) { return onErr(err); }
     console.log('Longest Common Subsequence: ' + longestCommonSubsequence(result.string1, result.string2));
     console.log('LCS length: ' + longestCommonSubsequence(result.string1, result.string2).length);
